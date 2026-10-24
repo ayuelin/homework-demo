@@ -1,5 +1,5 @@
 # MongoDB 图书馆管理实验
-仓库：mongodb-library-experiment
+仓库：homework-demo
 
 ## 实验内容
 任务1：MongoDB服务部署、环境变量
@@ -10,14 +10,15 @@
 任务6：Compass图形化验证、数据导出
 
 ## 文件说明
-- scripts/init.js：mongosh执行脚本
-- pycode/：Python pymongo源代码
-- screenshots：所有执行截图
-- dataset：原始导入数据
+- dataset：实验用到的原始数据集
+- pycode：pymongo 开发代码
+- report：实验报告文档
+- screenshots：实验过程截图
+- scripts：mongodb shell脚本
 
-启动步骤：
-1. mongod --dbpath /data/mongodb/library --port 27017
-2. mongosh
-3. use library
-4. 执行脚本
+## 运行说明
+1. 安装MongoDB，启动服务
+2. 导入dataset中的数据
+3. 执行scripts脚本或者运行pycode里的python程序
+
 
